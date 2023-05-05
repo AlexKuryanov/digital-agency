@@ -1,32 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+    <meta
+      name="description"
+      content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
     <!-- Начало: Данный блок удалять нельзя -->
     <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
-        </a>
-        <div>
-            <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
-            </p>
-            <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
-            </p>
-        </div>
+      <a href="https://t.me/s/FigmaToHTML" target="_blank">
+        <img src="img/logo.png" />
+      </a>
+      <div>
+        <p>
+          Данная верстка, была реализована пользователем в рамках обучающего
+          телеграм канал
+          <a href="https://t.me/s/FigmaToHTML" target="_blank"
+            >FIGMA | Макеты для верстки</a
+          >
+        </p>
+        <p>
+          При помощи
+          <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank"
+            >Telegram-бота</a
+          >
+          пользователь получил оплату за верстку этого макета.
+        </p>
+      </div>
     </div>
     <!-- Конец -->
 
     <div class="main">
-        В данном блоке размещается верстка
+      <!-- Header starts -->
+      <header class="page-header">
+        <nav class="page-nav nav container">
+          <a class="logo">
+            <h1 class="page-title">Digital Agency</h1>
+          </a>
+          <ul class="list nav-list">
+            <li class="list-item nav-item">
+              <a class="link nav-link" href="#!">home</a>
+            </li>
+            <li class="list-item nav-item">
+              <a class="link nav-link" href="#!">About</a>
+            </li>
+            <li class="list-item nav-item">
+              <a class="link nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="list-item nav-item">
+              <a class="link nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Header ends -->
+      <main class="page-content">
+        <!-- Hero starts -->
+        <section class="section hero">
+          <div class="container hero-container">
+            <div class="hero-desc">
+              <h2 class="section-title hero-title">
+                Building digital products, brands & experience
+              </h2>
+              <p class="hero-text">
+                Digital Agency is your online team mangement tool that easy and
+                prompt
+              </p>
+              <a class="btn hero-btn" href="#contact">Contact Us</a>
+            </div>
+            <div class="section-img-wrapper hero-img-wrapper">
+              <img
+                class="section-img hero-img"
+                src="assets/images/content/business-people-discussing-business-idea.png"
+                alt="business people discussing business idea"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- Hero ends -->
+        <!-- Companies starts -->
+        <section class="section companies">
+          <div class="container companies-container">
+            <h2 class="section-title visually-hidden">Companies</h2>
+            <h3 class="section-intro companies-intro">
+              Trusted by 4,000+ companies
+            </h3>
+            <ul class="list companies-list">
+              <li class="list-item companies-item">
+                <a class="link companies-link" href="">
+                  <img
+                    class="img companies-logo"
+                    src="assets/images/content/spotify.png"
+                    alt="Logotype of Spotify"
+                  />
+                </a>
+              </li>
+              <li class="list-item companies-item">
+                <a class="link companies-link" href="">
+                  <img
+                    class="img companies-logo"
+                    src="assets/images/content/slack.png"
+                    alt="Logotype of Slack"
+                  />
+                </a>
+              </li>
+              <li class="list-item companies-item">
+                <a class="link companies-link" href="">
+                  <img
+                    class="img companies-logo"
+                    src="assets/images/content/dropbox.png"
+                    alt="Logotype of Dropbox"
+                  />
+                </a>
+              </li>
+              <li class="list-item companies-item">
+                <a class="link companies-link" href="">
+                  <img
+                    class="img companies-logo"
+                    src="assets/images/content/zoom.png"
+                    alt="Logotype of Zoom"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- Companies ends -->
+        <!-- Branding starts -->
+        <section class="section branding">
+          <div class="container">
+            <h2 class="section-title visually-hidden">System</h2>
+            <div class="section-desc">
+              <h3 class="section-intro branding-intro">
+                Branding & Design system
+              </h3>
+              <p class="section-text">
+                Commonly used in the graphic, print & publishing industris for
+                previewing visual layout and mockups
+              </p>
+              <a class="link arrow-link" href="#!">
+                <img
+                  class="arrow-btn-icon"
+                  src="assets/images/content/arrow.svg"
+                  alt="arrow-btn-icon"
+                />
+              </a>
+            </div>
+            <div class="section-img-wrapper">
+              <img
+                class="section-img"
+                src="assets/images/content/designer-team-working-on-creative-design.png"
+                alt="designer team working on creative design"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- Branding ends -->
+        <!-- Custom starts -->
+        <section class="section custom">
+          <div class="container">
+            <h2 class="section-title visually-hidden">Development</h2>
+            <div class="section-desc">
+              <h3 class="section-intro custom-intro">
+                Custome & Plugin Development
+              </h3>
+              <p class="section-text">
+                Commonly used in the graphic, print & publishing industris for
+                previewing visual layout and mockups
+              </p>
+              <a class="link arrow-link" href="#!">
+                <img
+                  class="arrow-btn-icon"
+                  src="assets/images/content/arrow.svg"
+                  alt="arrow-btn-icon"
+                />
+              </a>
+            </div>
+            <div class="section-img-wrapper">
+              <img
+                class="section-img"
+                src="assets/images/content/businessman-analyzing-data.png"
+                alt="designer team working on creative design"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- Custom ends -->
+        <!-- Testimonials starts -->
+        <section class="section testimonials" id="testimonials">
+          <div class="container">
+            <h2 class="section-title">Testimonials</h2>
+            <h3 class="section-intro testimonials-intro">
+              Read What Other have to Say
+            </h3>
+            <ul class="list testimonials">
+              <li class="list-item testimonial">
+                <h4 class="testimonial-title">Andrew Rathore</h4>
+                <img
+                  class="testimonial-img"
+                  src="assets/images/content/testimonials1.png"
+                  alt="Author picture"
+                />
+                <p class="testimonial-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                </p>
+              </li>
+              <li class="list-item testimonial">
+                <h4 class="testimonial-title">Vera Duncan</h4>
+                <img
+                  class="testimonial-img"
+                  src="assets/images/content/testimonials2.png"
+                  alt="Author picture"
+                />
+                <p class="testimonial-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                </p>
+              </li>
+              <li class="list-item testimonial">
+                <h4 class="testimonial-title">Mark Smith</h4>
+                <img
+                  class="testimonial-img"
+                  src="assets/images/content/testimonials3.png"
+                  alt="Author picture"
+                />
+                <p class="testimonial-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- Testimonials ends -->
+        <!-- Contact starts -->
+        <section class="section contact" id="contact">
+          <div class="container">
+            <h2 class="section-title visually-hidden">Contact</h2>
+            <div class="section-desc">
+              <h3 class="section-intro contact-intro">
+                Be a part of the next big thing
+              </h3>
+              <p class="section-text">
+                We work with Brans, Startups, to SMEs. Colaborate for more
+                impact and growt
+              </p>
+              <a class="btn contact-btn" href="#!">Contact Us</a>
+            </div>
+            <div class="section-img-wrapper">
+              <img
+                class="section-img"
+                src="assets/images/content/customer-support.png"
+                alt="customer support"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- Contact ends -->
+      </main>
+      <!-- Footer starts -->
+      <footer class="page-footer">
+        <div class="container">
+          <div class="footer-intro">
+            <a class="logo" href="#">
+              <h2 class="footer-title">Digital Agency</h2>
+            </a>
+            <p class="footer-intro-text">
+              Building digital products, brands & experience
+            </p>
+          </div>
+          <div class="footer-nav">
+            <ul class="list footer-list resources">
+              <h3 class="list-title">Resources</h3>
+              <li class="list-item resource">
+                <a class="link footer-nav-link" href="#!">Guides</a>
+              </li>
+              <li class="list-item resource">
+                <a class="link footer-nav-link" href="#!">Blog</a>
+              </li>
+              <li class="list-item resource">
+                <a class="link footer-nav-link" href="#!">Cuistomer Stories</a>
+              </li>
+              <li class="list-item resource">
+                <a class="link footer-nav-link" href="#!">Glossery</a>
+              </li>
+            </ul>
+            <ul class="list footer-list company">
+              <h3 class="list-title">Company</h3>
+              <li class="list-item company-item">
+                <a class="link footer-nav-link" href="#!">About Us</a>
+              </li>
+              <li class="list-item company-item">
+                <a class="link footer-nav-link" href="#!">Careers</a>
+              </li>
+              <li class="list-item company-item">
+                <a class="link footer-nav-link" href="#!">Partners</a>
+              </li>
+              <li class="list-item company-item">
+                <a class="link footer-nav-link" href="#!">Contact Us</a>
+              </li>
+            </ul>
+            <ul class="list footer-list socials">
+              <h3 class="list-title">Social Media</h3>
+              <li class="list-item socials-item">
+                <a class="link footer-nav-link" href="#!">LinkedIn</a>
+              </li>
+              <li class="list-item socials-item">
+                <a class="link footer-nav-link" href="#!">Facebook</a>
+              </li>
+              <li class="list-item socials-item">
+                <a class="link footer-nav-link" href="#!">Instagram</a>
+              </li>
+              <li class="list-item socials-item">
+                <a class="link footer-nav-link" href="#!">Twitter</a>
+              </li>
+            </ul>
+          </div>
+          <div class="copyright">
+            <p class="copyright-text">
+              © Matheus. Todos os direitos reservados
+            </p>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer ends -->
     </div>
-
-</body>
+  </body>
 </html>
