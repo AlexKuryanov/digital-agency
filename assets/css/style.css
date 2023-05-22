@@ -420,7 +420,7 @@ img {
 
 /* Media queries */
 /* 768px < screen < 1024px */
-@media screen and (max-width: 1023px) {
+@media (max-width: 1023px) {
   .container {
     min-width: 320px;
     max-width: 730px;
@@ -542,7 +542,7 @@ img {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .container {
     max-width: 380px;
   }
