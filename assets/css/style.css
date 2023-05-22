@@ -12,6 +12,7 @@
   --companies-intro-text: #667085;
   --ellipse-top: rgba(142, 173, 213, 0.24);
   --ellipse-middle: rgba(142, 173, 213, 0.3);
+  --active: rgb(84, 124, 177);
 }
 
 /* Global */
@@ -72,6 +73,10 @@ img {
 .link {
   color: var(--text-color);
   text-decoration: none;
+}
+
+.link:hover {
+  color: var(--companies-intro-text);
 }
 
 .section {
@@ -164,6 +169,10 @@ img {
   text-transform: lowercase;
 }
 
+.nav-link.active {
+  color: var(--active);
+}
+
 /* Burger */
 .burger {
   display: none;
@@ -179,9 +188,7 @@ img {
   width: 20px;
   height: 1px;
   position: absolute;
-  left: 50%;
   background-color: var(--text-color);
-  transform: translateX(-50%);
 }
 
 .burger-line:first-child {
@@ -476,7 +483,8 @@ img {
   }
 
   .burger-line:first-child.active {
-    transform: rotate(45deg);
+    transform: rotate(45deg) scaleX(1.33);
+    transform-origin: 3px 0;
   }
 
   .burger-line:nth-child(2).active {
@@ -484,7 +492,8 @@ img {
   }
 
   .burger-line:last-child.active {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) scaleX(1.33);
+    transform-origin: -2px 0;
   }
 
   .hero-container {
