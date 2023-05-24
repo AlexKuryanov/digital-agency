@@ -119,6 +119,15 @@ img {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  box-shadow: 4px 4px 2px 0 var(--companies-intro-text);
+}
+
+.btn:active {
+  box-shadow: inset 4px 4px 2px 0 var(--companies-intro-text);
 }
 
 /* Header */
@@ -275,6 +284,18 @@ img {
   column-gap: 179px;
 }
 
+.arrow-link {
+  pointer-events: visible;
+}
+
+.arrow-btn-icon {
+  transition: all 0.3s ease-in-out;
+}
+
+.arrow-link:hover .arrow-btn-icon {
+  transform: translateX(5px);
+}
+
 /* Custom section */
 .custom {
   position: relative;
@@ -407,6 +428,7 @@ img {
 
 .footer-list-title {
   margin-bottom: 32px;
+  font-weight: 700;
 }
 
 .footer-list-item {
@@ -580,9 +602,20 @@ img {
     text-align: center;
   }
 
+  .arrow-link {
+    margin-bottom: 25px;
+  }
+
   .arrow-btn-icon {
     transform: rotate(90deg);
-    margin-bottom: 25px;
+  }
+
+  .arrow-link:hover .arrow-btn-icon {
+    transform: rotate(90deg) translateX(5px);
+  }
+
+  .arrow-link:active .arrow-btn-icon {
+    transform: rotate(90deg) translateX(5px) scale(0.6);
   }
 
   .contact {
